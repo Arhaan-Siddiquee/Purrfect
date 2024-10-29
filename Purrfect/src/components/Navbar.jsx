@@ -18,14 +18,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full transition-all duration-300 p-5 flex justify-between items-center ${
+      className={`fixed top-0 left-0 w-full p-5 flex justify-between items-center ${
         scrolled
-          ? "bg-site border-b border-red-600 mt-4 ml-4 shadow-lg bg-black border border-white shadow-md p-5 mr-5 ml-5 rounded-2xl"
+          ? "bg-site border-b border-red-600 mt-4 shadow-lg bg-black border border-red shadow-md p-5 rounded-2xl "
           : "bg-transparent"
       }`}
     >
       {/* Logo */}
-      <img src={logo} alt="Logo" className="w-28 h-auto md:w-36" />
+      <img src={logo} alt="Logo" className="w-28 h-auto md:w-36 h-auto" />
 
       {/* Mobile Menu Toggle Button */}
       <div className="md:hidden">
