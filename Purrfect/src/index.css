@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* index.css */
+.glassmorphic {
+    background: rgba(255, 255, 255, 0.25); /* Increase opacity for better visibility */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Slightly visible border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25); /* Darker shadow for contrast */
+  }
+  
