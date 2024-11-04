@@ -8,15 +8,12 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="bg-site ">
-      <div>
-      <Navbar/>
-          <Home />
-          <About />
-          <Adopt />
-          </div>
-
-          <Contact />
+    <div className="bg-site relative">
+      <Navbar />
+      <Home />
+      <About />
+      <Adopt />
+      <Contact />
     </div>
   );
 }

@@ -23,7 +23,7 @@ const Navbar = () => {
           scrolled
             ? "bg-site border-b border-red-600 mt-4 shadow-lg bg-black border border-red shadow-md p-5 rounded-2xl"
             : "bg-transparent"
-        }`}
+        } z-50`}
       >
         {/* Logo */}
         <img src={logo} alt="Logo" className="w-28 h-auto md:w-36 h-auto" />
