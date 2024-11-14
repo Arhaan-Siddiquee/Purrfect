@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Purrfect - Pet Adoption Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Purrfect** is a pet adoption platform designed to help users find their ideal furry companions from nearby shelters. With location-based search and a user-friendly interface, Purrfect makes it easy to discover adoptable pets, filter results based on preferences, and save favorites for future reference. Our mission is to connect pets with loving homes quickly and efficiently.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Location-Based Search**: Discover adoptable pets near your current location.
+- **Advanced Filters**: Filter pets by type, breed, age, size, and more.
+- **Pet Profiles**: Detailed pet profiles with pictures, descriptions, and shelter contact info.
+- **Favorites List**: Save pets you like to your favorites for easy access later.
+- **Responsive Design**: Fully responsive design for desktop and mobile users.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js
+- **API**: Petfinder API for retrieving pet adoption data.
+- **Styling**: Tailwind CSS for a modern and responsive UI.
+- **Deployment**: Deployed on Vercel for easy accessibility.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the repository**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/yourusername/purrfect.git
 
-### `npm run build`
+2. **Navigate to the project directory:**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd purrfect
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install dependencies:**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
 
-### `npm run eject`
+4. **Set up API keys:**:
+   - Register for a Petfinder API key here.
+   - Create a .env file in the root directory and add your API key:
+     
+   ```bash
+   git clone https://github.com/yourusername/purrfect.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Run the development server:**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6. **Open in browser:**
+   The app will be accessible at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Project Structure
+   ```bash
+   ├── public
+   ├── src
+   │   ├── components   # Reusable components like PetCard, SearchBar, etc.
+   │   ├── pages        # Main pages like Home, Favorites, PetDetails
+   │   ├── services     # API calls to Petfinder
+   │   └── styles       # TailwindCSS styling
+   ├── .env             # Environment variables (API keys)
+   ├── package.json
+   └── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
